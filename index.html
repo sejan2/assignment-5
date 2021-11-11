@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iMac</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ------font-awesome------ -->
+    <script src="https://kit.fontawesome.com/832efe99eb.js" crossorigin="anonymous"></script>
+    <!-- ----font awesome------- -->
+</head>
+
+<body>
+    <section>
+        <main>]
+            <div class="container-fluid mb-5 ">
+                <div class="d-flex align-items-center ">
+                    <div class="col-md-4 m-5 ">
+                        <img class="img-fluid w-75 " src="images/mac.png" alt="">
+                    </div>
+                    <div class="col-md-8">
+                        <h1>Customize your blue 24-inch iMac<br> with apple M1 chip</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nam<br> temporibus? Eos
+                            soluta
+                            ullam saepe excepturi perspiciatis exercitationem totam quaerat pariatur,<br> placeat nemo
+                            eligendi
+                            non reiciendis quas voluptatum. Tempora, aliquid!</p>
+                        <h4 class="mt-5">Memory</h4>
+                        <button id="um8">8gb Unified Memory</button>
+                        <button id="um16">16gb Unified Memory</button>
+                        <h4 class="mt-5">Storage</h4>
+                        <button id="ssd256">256 GB SSD storage</button>
+                        <button id="ssd512">512 GB SSD storage</button>
+                        <button id="ssd1">1Tb GB SSD storage</button>
+                        <h4 class="mt-5">Choose your delivery option</h4>
+                        <button id="dsc">Friday,25 Aug FREE Prime Delivery</button>
+                        <button id="ex">Friday,21 Aug Delivery Charge 20$</button>
+
+                        <table class="table w-50 mt-5">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Best Price</th>
+                                    <th scope="col">$ <span id="bp">1299</span></th>
+                                </tr>
+                                <tr>
+                                    <th scope="col">Extra Memory Cost</th>
+                                    <th scope="col">$ <span id="emc">00</span></th>
+                                </tr>
+                                <tr>
+                                    <th scope="col">Extra Storage Cost</th>
+                                    <th scope="col">$ <span id="esc">00</span></th>
+                                </tr>
+                                <tr style="border-bottom: 2px solid black;">
+                                    <th scope="col">Delivery Charge</th>
+                                    <th scope="col">$ <span id="dc">00</span>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th scope="col">Total Price</th>
+                                    <th scope="col">$ <span id="tp">1299</span></th>
+                                </tr>
+                            </thead>
+                        </table>
+                        <div class="row">
+                            <h5>Add Promo Code</h5>
+                            <div class="col-md-6">
+
+                                <input id="pc" class="form-control " type="text">
+                            </div>
+                            <div class="col-md-6 ">
+                                <button class="btn btn-danger" onclick="promoCode();">Apply</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <hr>
+                <h1 class="text-center">TOTAL: $<span id="final-total">1299</span></h1>
+
+
+            </div>
+
+            </div>
+            </div>
+        </main>
+    </section>
+    <script src="app.js"></script>
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+</body>
